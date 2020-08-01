@@ -1,0 +1,20 @@
+print("Faulty Calculator")
+oper=input("select operator : +,-,*,/")
+num1=int(input("Enter first number"))
+num2=int(input("Enter Second Number"))
+if num1==45 and num2==3 and oper=='*':
+    print(555)
+elif num1==56 and num2==9 and oper=='+':
+    print(77)
+elif num1==56 and num2==6 and oper=='/':
+    print(4)
+elif oper=='+':
+    print(num1+num2)
+elif oper=='-':
+    print(num1-num2)
+elif oper=='*':
+    print(num1*num2)
+elif oper=='/':
+    print(num1/num2)
+else:
+    print('Check your Input')
